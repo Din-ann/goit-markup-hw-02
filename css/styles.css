@@ -50,8 +50,8 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.header-list .link:hover,
-.header-list .link:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
 
@@ -69,7 +69,6 @@ ol {
   color: var(--SLATE, #434455);
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -91,7 +90,6 @@ ol {
   text-align: center;
   font-family: Roboto;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -144,20 +142,6 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /*==============Our team===========*/
 
 .team {
@@ -168,7 +152,6 @@ ol {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -208,7 +191,6 @@ ol {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
